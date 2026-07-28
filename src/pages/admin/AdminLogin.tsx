@@ -83,23 +83,7 @@ export const AdminLogin: React.FC = () => {
         </div>
 
         {/* Demo Quick Fill Button */}
-        <div className="p-3 bg-[#111111] border border-[#D4AF37]/20 rounded-2xl flex items-center justify-between text-xs">
-          <div className="space-y-0.5 text-left">
-            <span className="text-[#D4AF37] font-bold flex items-center gap-1 text-[11px]">
-              <Sparkles className="w-3 h-3" /> Demo Admin Account:
-            </span>
-            <p className="text-neutral-400 font-mono text-[10px]">
-              admin@gmail.com | Admin!@#007
-            </p>
-          </div>
-          <button
-            type="button"
-            onClick={handleFillCredentials}
-            className="px-3 py-1.5 bg-[#D4AF37]/20 border border-[#D4AF37]/40 text-[#D4AF37] hover:bg-[#D4AF37]/30 text-[11px] font-bold rounded-lg transition-colors shrink-0"
-          >
-            Auto Fill
-          </button>
-        </div>
+        
 
         {/* Login Form */}
         <form onSubmit={handleSubmit} className="space-y-4">
