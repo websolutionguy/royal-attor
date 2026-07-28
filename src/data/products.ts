@@ -1,0 +1,118 @@
+import { Product } from '../types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 'royal-oud',
+    name: 'Royal Oud',
+    tagline: 'Majestic & Regal Wood',
+    description: 'A majestic blend of aged agarwood, oriental spices, and warm amber notes crafted for royalty.',
+    category: 'Oud',
+    image: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80',
+    isBestseller: true,
+    notes: {
+      top: 'Aged Cambodian Agarwood',
+      middle: 'Saffron & Warm Cinnamon',
+      base: 'Golden Amber & Sandalwood',
+    },
+    variations: {
+      '10ml': 450,
+      '20ml': 800,
+      '30ml': 1100,
+    },
+  },
+  {
+    id: 'amber-musk',
+    name: 'Amber Musk',
+    tagline: 'Sensual & Velvet Touch',
+    description: 'Sensual warm amber infused with velvet musk and sweet vanilla undertones for an unforgettable presence.',
+    category: 'Musk',
+    image: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80',
+    isBestseller: false,
+    notes: {
+      top: 'Sweet Vanilla Bean',
+      middle: 'Gold Honey & Amber Crystals',
+      base: 'Soft Velvet Musk',
+    },
+    variations: {
+      '10ml': 500,
+      '20ml': 900,
+      '30ml': 1250,
+    },
+  },
+  {
+    id: 'black-rose',
+    name: 'Black Rose',
+    tagline: 'Smoky Floral Passion',
+    description: 'Deep Damask rose paired with smoky oud wood, dark spices, and velvety woody accords.',
+    category: 'Floral',
+    image: 'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=800&q=80',
+    isBestseller: true,
+    notes: {
+      top: 'Taif Damask Rose',
+      middle: 'Dark Cocoa & Spice',
+      base: 'Smoky Oud & Patchouli',
+    },
+    variations: {
+      '10ml': 550,
+      '20ml': 950,
+      '30ml': 1350,
+    },
+  },
+  {
+    id: 'white-musk',
+    name: 'White Musk',
+    tagline: 'Pure & Effortless Aura',
+    description: 'Clean, silky, and powdery white musk for an effortlessly serene and long-lasting freshness.',
+    category: 'Musk',
+    image: 'https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=800&q=80',
+    isBestseller: false,
+    notes: {
+      top: 'Crisp Cotton & Lotus Leaf',
+      middle: 'White Jasmine Petals',
+      base: 'Silky Powdery Musk',
+    },
+    variations: {
+      '10ml': 480,
+      '20ml': 850,
+      '30ml': 1200,
+    },
+  },
+  {
+    id: 'oud-luxury',
+    name: 'Oud Luxury',
+    tagline: 'Intense Cambodian Elegance',
+    description: 'Rare Cambodi oud blend crafted for connoisseurs with deep projection and rich woody warmth.',
+    category: 'Oud',
+    image: 'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80',
+    isBestseller: true,
+    notes: {
+      top: 'Vintage Assamese Agarwood',
+      middle: 'Leather & Smoky Resin',
+      base: 'Rich Cedarwood & Musk',
+    },
+    variations: {
+      '10ml': 650,
+      '20ml': 1150,
+      '30ml': 1600,
+    },
+  },
+  {
+    id: 'golden-sandal',
+    name: 'Golden Sandal',
+    tagline: 'Soothing Earthy Harmony',
+    description: 'Rich Mysore sandalwood balanced with golden amber, warm cream, and soft floral tones.',
+    category: 'Woody',
+    image: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80',
+    isBestseller: false,
+    notes: {
+      top: 'Mysore Sandalwood Chips',
+      middle: 'Warm Tonka Bean',
+      base: 'Golden Resin & Cedar',
+    },
+    variations: {
+      '10ml': 520,
+      '20ml': 920,
+      '30ml': 1300,
+    },
+  },
+];

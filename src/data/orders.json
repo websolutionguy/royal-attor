@@ -1,0 +1,65 @@
+[
+  {
+    "orderId": "RA-784920",
+    "createdAt": "2026-07-26T14:30:00.000Z",
+    "status": "Pending",
+    "subtotal": 1350,
+    "deliveryCharge": 80,
+    "grandTotal": 1430,
+    "customer": {
+      "name": "Tanvir Hossain",
+      "phone": "01712345678",
+      "email": "tanvir@example.com",
+      "address": "House 14, Road 5, Block B, Mirpur 10, Dhaka",
+      "notes": "Please call 30 mins before delivery.",
+      "paymentMethod": "cod"
+    },
+    "items": [
+      {
+        "id": "royal-oud-20ml",
+        "productId": "royal-oud",
+        "name": "Royal Oud",
+        "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80",
+        "selectedVolume": "20ml",
+        "unitPrice": 800,
+        "quantity": 1
+      },
+      {
+        "id": "amber-musk-10ml",
+        "productId": "amber-musk",
+        "name": "Amber Musk",
+        "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80",
+        "selectedVolume": "10ml",
+        "unitPrice": 500,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "RA-593021",
+    "createdAt": "2026-07-25T11:15:00.000Z",
+    "status": "Confirmed",
+    "subtotal": 1600,
+    "deliveryCharge": 80,
+    "grandTotal": 1680,
+    "customer": {
+      "name": "Sultana Razia",
+      "phone": "01819876543",
+      "email": "razia@gmail.com",
+      "address": "Flat 4A, Green Garden Apartment, Banani, Dhaka",
+      "notes": "",
+      "paymentMethod": "cod"
+    },
+    "items": [
+      {
+        "id": "oud-luxury-30ml",
+        "productId": "oud-luxury",
+        "name": "Oud Luxury",
+        "image": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80",
+        "selectedVolume": "30ml",
+        "unitPrice": 1600,
+        "quantity": 1
+      }
+    ]
+  }
+]
